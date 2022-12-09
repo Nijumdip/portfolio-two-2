@@ -8,31 +8,43 @@ const Skills = () => {
             <div>
                 <SkillHeading title="Comfort " />
                 <div className=" lg:col-span-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-                    <SkillCard title="Comfort " image="https://i.ibb.co/J2SJNLv/awa0.jpg" />
-                    <SkillCard />
+                    <SkillCard title="HTML " image="https://i.ibb.co/XDwvNt3/html1.png" />
 
-                    <SkillCard />
-                    <SkillCard />
+                    <SkillCard title="CSS " image="https://i.ibb.co/ft0SPhq/css.png" />
 
-                    <SkillCard />
-                    <SkillCard />
+                    <SkillCard title="Bootstrap " image="https://i.ibb.co/6nfcPsr/boostrap.png" />
+
+                    <SkillCard title="TailwindCss " image="https://i.ibb.co/QYDWNXw/tailwind.jpg" />
+
+                    <SkillCard title="JavaScript " image="https://i.ibb.co/YLMkW5b/js.png" />
+
+                    <SkillCard title="ReactJs " image="https://i.ibb.co/JzBbGTX/react.png" />
+
+                    <SkillCard title="DaisyUi " image="https://i.ibb.co/y5KxngK/daisyUi.jpg" />
+
+                    <SkillCard title="Flowbite " image="https://i.ibb.co/gTD5cq6/flowbite.jpg" />
                 </div>
             </div>
 
             <div>
                 <SkillHeading title="Familiar " />
                 <div className=" lg:col-span-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-                    <SkillCard title="Comfort " image="https://i.ibb.co/J2SJNLv/awa0.jpg" />
-                    <SkillCard />
+                    <SkillCard title="NextJs " image="https://i.ibb.co/pzYNLq8/next.jpg" />
+                    <SkillCard title="Mongodb " image="https://i.ibb.co/t4hxshT/mongo.jpg" />
 
-                    <SkillCard />
-                    <SkillCard />
+                    <SkillCard title="Express " image="https://i.ibb.co/YNtKsZW/express.png" />
 
-                    <SkillCard />
-                    <SkillCard />
+                    <SkillCard title="Firebase " image="https://i.ibb.co/Jsr8vQY/Firebase.png" />
+
+                    <SkillCard title="NodeJS " image="https://i.ibb.co/Hxsb5nJ/nodejs.png" />
+
+                    <SkillCard title="Redux " image="https://i.ibb.co/YyZFBWG/redux1.png" />
+
+                    <SkillCard title="Express " image="https://i.ibb.co/YNtKsZW/express.png" />
+
+                    <SkillCard title="Express " image="https://i.ibb.co/YNtKsZW/express.png" />
                 </div>
             </div>
-            
         </>
     );
 };
