@@ -10,6 +10,7 @@ const AboutCard = ({ card }) => {
             <div>
                 <h5  class=" text-xl font-bold">{name}</h5>
                 <h5  class=" text-xl font-bold">{name}</h5>
+                <h5  class=" text-xl font-bold">{name}</h5>
                 <p class="font-normal text-gray-700">{description}</p>
             </div>
         </div>
