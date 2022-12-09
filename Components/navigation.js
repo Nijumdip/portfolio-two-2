@@ -48,13 +48,13 @@ function Navigation() {
                         Resume
                     </Link>
                     <Link
-                        href="/work"
+                        href="/works"
                         className="flex items-center justify-center px-4 py-1 rounded-lg bg-white home"
                     >
                         <h1 className="p-2">
                             <FiCodesandbox />
                         </h1>
-                        work
+                        Works
                     </Link>
                     <Link
                         href="/blog"
