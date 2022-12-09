@@ -6,10 +6,12 @@ import Skills from "../Components/skills";
 const Resume = () => {
     return (
         <>
-            <div className=" max-w-screen-xl py-8 mx-auto lg:gap-5 xl:gap-0 lg:py-16 lg:grid-cols-12 bg-white rounded-3xl ">
-                <ShareAbout title="Resume" />
+            <div className=" max-w-screen-xl py-8 mx-auto lg:gap-5 xl:gap-0 lg:py-16 lg:grid-cols-12 bg-white rounded-3xl mb-5">
+                <div className="px-5">
+                    <ShareAbout title="Resume" />
+                </div>
 
-                <div className=" mt-1 sm:px-20 px-0 lg:col-span-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:grid-cols-3 ">
+                <div className=" mt-1 sm:px-20 px-5 lg:col-span-12 grid sm:grid-cols-1  lg:grid-cols-3 gap-6 ">
                     <MainResume />
                 </div>
 
@@ -18,11 +20,10 @@ const Resume = () => {
 
                     <div className=" lg:col-span-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                         <Skills />
-
-                        
                     </div>
                 </div>
             </div>
+            
         </>
     );
 };

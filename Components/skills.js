@@ -1,6 +1,4 @@
 import React from "react";
-import HeadingResume from "./headingResume";
-import ResumeCard from "./resumeCard";
 import SkillCard from "./skillCard";
 import SkillHeading from "./skillHeading";
 
@@ -34,6 +32,7 @@ const Skills = () => {
                     <SkillCard />
                 </div>
             </div>
+            
         </>
     );
 };
