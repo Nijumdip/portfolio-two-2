@@ -1,0 +1,4 @@
+install nextjs app
+install flowbite
+
+install reactIcons
