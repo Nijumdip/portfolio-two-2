@@ -1,5 +1,6 @@
 import AboutCard from "../Components/aboutCard";
 import InfoAbout from "../Components/infoAbout";
+import ShareAbout from "../Components/shareAbout";
 
 function About() {
     const aboutCard = [
@@ -51,12 +52,7 @@ function About() {
         <>
             <div className=" max-w-screen-xl px-4 py-8 mx-auto lg:gap-5 xl:gap-0 lg:py-16 lg:grid-cols-12 bg-white rounded-3xl m-5">
                 
-                <div className="flex flex-row ml:0 sm:ml-16 text-4xl font-bold text-gray-900 ">
-                    <h1>About Me </h1>
-                    <p>
-                        <hr className="border w-32 sm:w-60 mt-5 ml-6 border-pink-500" /> <br />
-                    </p>
-                </div>
+                <ShareAbout title="About Me" />
 
                 <div class="grid lg:grid-cols-12 bg-white rounded-3xl">
                     
@@ -72,11 +68,11 @@ function About() {
                         <InfoAbout />
                     </div>
 
-                    <div className="flex flex-row ml:0 sm:ml-16 text-4xl font-normal text-gray-900 mt-12 lg:col-span-5  ">
-                        <h1>What I do! </h1>
-                        <p>
-                            <hr className="border w-32 sm:w-60 mt-5 ml-6 border-pink-500" /> <br />
-                        </p>
+                    
+                   
+
+                    <div className="mt-12 lg:col-span-5  ">
+                    <ShareAbout title="What I do!" />
                     </div>
 
                     <div className=" mt-5 sm:px-20 px-0 rounded-lg lg:col-span-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:grid-cols-3 ">
