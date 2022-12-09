@@ -14,20 +14,20 @@ function SocialMedia() {
             </Link>
 
             <Link
-                href="/"
+                href="https://twitter.com/NijumDip298"
                 className="px-2 py-1 rounded-lg bg-white text-blue-600 home">
                 <h1 className="p-2"> <BsTwitter /> </h1>
             </Link>
 
             <Link
-                href="/"
+                href="https://github.com/Nijumdip"
                 className=" px-2 py-1 rounded-lg bg-white text-blue-600 home"
             >
                 <h1 className="p-2"> <FaGithub /> </h1>
             </Link>
             
             <Link
-                href="/"
+                href="https://www.linkedin.com/in/nijum-dip-44441a222/"
                 className=" px-2 py-1 rounded-lg bg-white text-blue-600 home"
             >
                 <h1 className="p-2"> <GrLinkedinOption /> </h1>

@@ -1,4 +1,7 @@
 import { FiSmartphone } from "react-icons/fi";
+import { MdLocationPin } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
+import { SlCalender } from "react-icons/sl";
 import Link from "next/link";
 
 const InfoAbout = () => {
@@ -17,7 +20,7 @@ const InfoAbout = () => {
             <div class="grid lg:grid-cols-2 gap-5">
                 <div className="flex flex-row">
                     <div>
-                        <FiSmartphone className="h-12 w-12 p-2 mr-2 rounded-lg shadow bg-white" />
+                        <FiSmartphone className="h-10 w-10 p-2 mr-2 rounded-lg shadow bg-white" />
                     </div>
 
                     <div>
@@ -28,7 +31,7 @@ const InfoAbout = () => {
 
                 <div className="flex flex-row">
                     <div>
-                        <FiSmartphone className="h-12 w-12 p-2 mr-2 rounded-lg shadow bg-white" />
+                        <MdLocationPin className="h-10 w-10 p-2 mr-2 rounded-lg shadow bg-white" />
                     </div>
 
                     <div>
@@ -39,7 +42,7 @@ const InfoAbout = () => {
 
                 <div className="flex flex-row">
                     <div>
-                        <FiSmartphone className="h-12 w-12 p-2 mr-2 rounded-lg shadow bg-white" />
+                        <MdEmail className="h-10 w-10 p-2 mr-2 rounded-lg shadow bg-white" />
                     </div>
 
                     <div>
@@ -55,7 +58,7 @@ const InfoAbout = () => {
 
                 <div className="flex flex-row">
                     <div>
-                        <FiSmartphone className="h-12 w-12 p-2 mr-2 rounded-lg shadow bg-white" />
+                        <SlCalender className="h-10 w-10 p-2 mr-2 rounded-lg shadow bg-white" />
                     </div>
                     <div>
                         <h3 class="font-normal text-gray-500">Birthday</h3>
