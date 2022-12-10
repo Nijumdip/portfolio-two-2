@@ -27,6 +27,7 @@ html {
     height: 250px;
     width: 240px;
 }
+
 .beforeAfter::after{
     content: "";
     position: absolute;
