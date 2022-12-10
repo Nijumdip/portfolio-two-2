@@ -5,52 +5,27 @@ import React from "react";
 const WorkNav = () => {
     return (
         <>
-            <Navbar className="py-5 bg-transparent justify-end ">
-            
-                    <Link
-                        href="/"
-                        className="flex items-center justify-center px-4 py-1 rounded-lg bg-white home"
-                    >
-                        Home
+            <div className="py-5 sm:m-50  flex justify-end workNav ">
+                <div>
+                    <Link href="/" className="px-4 py-1 rounded-lg home">
+                        All
                     </Link>
 
-                    <Link
-                        href="/"
-                        className="flex items-center justify-center px-4 py-1 rounded-lg bg-white home"
-                    >
-    
-                        About
+                    <Link href="/" className="px-4 py-1 rounded-lg home">
+                        FrontEnd
                     </Link>
-                    <Link
-                        href="/resume"
-                        className="flex items-center justify-center px-4 py-1 rounded-lg bg-white home"
-                    >
-                        
-                        Resume
+                    <Link href="/resume" className="px-4 py-1 rounded-lg home">
+                        Full-Stack
                     </Link>
-                    <Link
-                        href="/works"
-                        className="flex items-center justify-center px-4 py-1 rounded-lg bg-white home"
-                    >
-                        
-                        Works
+                    <Link href="/works" className="px-4 py-1 rounded-lg home">
+                        Figma
                     </Link>
-                    <Link
-                        href="/blog"
-                        className="flex items-center justify-center px-4 py-1 rounded-lg bg-white home"
-                    >
-                       
-                        Blog
+                    <Link href="/blog" className="px-4 py-1 rounded-lg home">
+                        App
                     </Link>
-                    <Link
-                        href="/contact"
-                        className="flex items-center justify-center px-4 py-1 rounded-lg bg-white home"
-                    >
-                        
-                        Contact
-                    </Link>
-                
-            </Navbar>
+                    
+                </div>
+            </div>
         </>
     );
 };
