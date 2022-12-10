@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      Apps
+      Apps Projects are coming soon
     </div>
   )
 }

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Figma = () => {
   return (
-    <div>Figma</div>
+    <>
+      Figma Projects are coming soon
+    </>
   )
 }
 
