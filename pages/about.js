@@ -51,11 +51,11 @@ function About() {
     return (
         <>
             <div className=" max-w-screen-xl px-4 py-8 mx-auto lg:gap-5 xl:gap-0 lg:py-16 lg:grid-cols-12 bg-white rounded-3xl m-5">
-                
-                <ShareAbout title="About Me" />
+                <div className="px-5 sm:ml-10 mb-5">
+                    <ShareAbout title="About Me" />
+                </div>
 
                 <div class="grid lg:grid-cols-12 bg-white rounded-3xl">
-                    
                     <div class="w-80 lg:mt-0 lg:col-span-5 lg:flex flex-col ml-0 sm:ml-14 rounded-3xl">
                         <img
                             src="https://i.ibb.co/4VRSWvV/nijum-pic-removebg-preview.png"
@@ -68,11 +68,8 @@ function About() {
                         <InfoAbout />
                     </div>
 
-                    
-                   
-
-                    <div className="mt-12 lg:col-span-5  ">
-                    <ShareAbout title="What I do!" />
+                    <div className="mt-12 lg:col-span-5 sm:ml-16 ">
+                        <ShareAbout title="What I do! " />
                     </div>
 
                     <div className=" mt-5 sm:px-20 px-0 rounded-lg lg:col-span-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:grid-cols-3 ">

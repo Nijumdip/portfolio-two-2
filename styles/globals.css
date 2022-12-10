@@ -27,3 +27,11 @@ html {
     height: 250px;
     width: 240px;
 }
+.beforeAfter::after{
+    content: "";
+    position: absolute;
+    width: 10vw;
+    border-bottom: 2px solid #e12a71;
+    top: 24px;
+    left: 180px;
+}

@@ -40,9 +40,9 @@ const Skills = () => {
 
                     <SkillCard title="Redux " image="https://i.ibb.co/YyZFBWG/redux1.png" />
 
-                    <SkillCard title="Express " image="https://i.ibb.co/YNtKsZW/express.png" />
+                    <SkillCard title="Mongoose " image="https://i.ibb.co/VjMGg9R/mon.png" />
 
-                    <SkillCard title="Express " image="https://i.ibb.co/YNtKsZW/express.png" />
+                    <SkillCard title="Git & Github " image="https://i.ibb.co/JQk7vD0/Git-Git-Hub.png" />
                 </div>
             </div>
         </>
