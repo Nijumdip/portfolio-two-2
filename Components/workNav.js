@@ -5,22 +5,22 @@ import React from "react";
 const WorkNav = () => {
     return (
         <>
-            <div className="py-5 sm:m-50  flex justify-end workNav ">
-                <div>
-                    <Link href="/" className="px-4 py-1 rounded-lg home">
+            <div className="py-5 flex justify-end workNav ">
+                <div className="">
+                    <Link href="/works/all" className="px-4 py-1 rounded-lg home">
                         All
                     </Link>
 
-                    <Link href="/" className="px-4 py-1 rounded-lg home">
+                    <Link href="/works/frontEnd" className="px-4 py-1 rounded-lg home">
                         FrontEnd
                     </Link>
-                    <Link href="/resume" className="px-4 py-1 rounded-lg home">
+                    <Link href="/works/fullStack" className="px-4 py-1 rounded-lg home">
                         Full-Stack
                     </Link>
-                    <Link href="/works" className="px-4 py-1 rounded-lg home">
+                    <Link href="/works/" className="px-4 py-1 rounded-lg home">
                         Figma
                     </Link>
-                    <Link href="/blog" className="px-4 py-1 rounded-lg home">
+                    <Link href="/works/" className="px-4 py-1 rounded-lg home">
                         App
                     </Link>
                     
