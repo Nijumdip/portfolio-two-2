@@ -7,7 +7,7 @@ const WorkNav = () => {
         <>
             <div className="py-5 flex justify-end workNav ">
                 <div className="">
-                    <Link href="/works/all" className="px-4 py-1 rounded-lg home">
+                    <Link href="/works" className="px-4 py-1 rounded-lg home">
                         All
                     </Link>
 
