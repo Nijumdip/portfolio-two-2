@@ -17,10 +17,10 @@ const WorkNav = () => {
                     <Link href="/works/fullStack" className="px-4 py-1 rounded-lg home">
                         Full-Stack
                     </Link>
-                    <Link href="/works/" className="px-4 py-1 rounded-lg home">
+                    <Link href="/works/figma" className="px-4 py-1 rounded-lg home">
                         Figma
                     </Link>
-                    <Link href="/works/" className="px-4 py-1 rounded-lg home">
+                    <Link href="/works/app" className="px-4 py-1 rounded-lg home">
                         App
                     </Link>
                     
